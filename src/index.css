@@ -856,7 +856,7 @@
    flex-wrap: wrap;
    height: 3rem;
    width: 100%;
-   background: white;
+   background: whitesmoke;
    transition: all ease-out 150ms;
  }
  .list-item .title {
@@ -883,7 +883,7 @@
    color: #eee;
  }
  .list-item .actions a:hover {
-   color: #2cc5d2;
+   color: lightpink;
  }
  .list-item .actions a:active {
    color: #555;
