@@ -1,22 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <div id="app">
-      <task-list />
-    </div>
+      <InboxScreen />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import TaskList from './components/PureTaskList.vue';
+import InboxScreen from './components/InboxScreen.vue';
 
 export default {
-  name: "App",
+  name: "app",
   components: {
-    HelloWorld,
-    TaskList
+    InboxScreen,
   }
 };
 </script>
